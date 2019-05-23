@@ -10,6 +10,5 @@ namespace BasicSamples
         public int Age { get; set; }
 
         public int GetBirthYear() => DateTime.UtcNow.Year - Age;
-        
     }
 }

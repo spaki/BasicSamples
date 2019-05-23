@@ -123,6 +123,31 @@ namespace BasicSamples
             //Console.WriteLine($"{tuple.first} - {tuple.second} - {tuple.third.Name}");
 
             #endregion
+
+            #region Actions e Functions
+
+            //var sayHi = new Action<string, string, string>(PrintMessage);
+            //sayHi("Oi, eu sou o", "Hi, I'm", "Goku");
+
+            //Func<int, int, string> monaySumCalc = (y, x) => 
+            //{
+            //    return $"{y + x :c}";
+            //};
+
+            //Func<int, int, string> monayTimesCalc = (y, x) => $"{y * x:c}";
+
+            //var sum = monaySumCalc(2, 5);
+            //var times = monayTimesCalc(2, 5);
+            //Console.WriteLine("Sum: " + sum);
+            //Console.WriteLine("Times: " + times);
+
+            #endregion
+        }
+
+        static void PrintMessage(string message1, string message2, string character)
+        {
+            Console.WriteLine($"{message1} {character}");
+            Console.WriteLine($"{message2} {character}");
         }
     }
 }
