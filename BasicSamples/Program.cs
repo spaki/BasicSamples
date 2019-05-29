@@ -26,6 +26,9 @@ namespace BasicSamples
             #endregion
 
             #region Basic Numbers
+            // -> Primitive types and Ranges: 
+            //      http://www.informit.com/articles/article.aspx?p=101656&seqNum=2
+
             //int num1;
             //num1 = 20;
             //Console.WriteLine($"num1: {num1}");
@@ -47,6 +50,37 @@ namespace BasicSamples
 
             //var word2 = "got is worse than lost!";
             //Console.WriteLine($"word2: {word2}");
+
+            //var num1 = 10.3;
+            //var num2 = 10.4m;
+            //var num3 = 10.5f;
+
+            //Console.WriteLine($"{nameof(num1)} {num1.GetType()}: {num1}");
+            //Console.WriteLine($"{nameof(num2)} {num2.GetType()}: {num2}");
+            //Console.WriteLine($"{nameof(num3)} {num3.GetType()}: {num3}");
+
+            // -> https://www.tutlane.com/tutorial/csharp/csharp-string-format-method 
+            //var number = 66666.6;
+            //Console.WriteLine($"{number}");
+            //Console.WriteLine($"{number:0.0000}");
+            //Console.WriteLine($"{number:c}");
+            //Console.WriteLine($"{number:n}");
+
+            //var date = DateTime.Now;
+            //Console.WriteLine($"{date}");
+            //Console.WriteLine($"{date:dd/MM/yyyy HH:mm:ss:ffffff}");
+            //Console.WriteLine($"{date:D}");
+            //Console.WriteLine($"{date:r}");
+
+            // -> Talk about: Pointers, OO, Strings (Immutable)
+            //  https://www.tutorialsteacher.com/csharp/csharp-stringbuilder
+            //Console.WriteLine($"string 1" + "string 2");
+            //Console.WriteLine("string 1" + 2);
+
+            // -> Don't do that:
+            //var someString = "";
+            //var someString2 = "";
+
             #endregion
 
             #region Basic Flow
@@ -107,6 +141,8 @@ namespace BasicSamples
             #endregion
 
             #region Special Types
+
+            // -> Talk about: boxing, unboxing, object and GC
 
             //dynamic temp;
 
