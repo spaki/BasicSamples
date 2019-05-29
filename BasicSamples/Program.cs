@@ -10,10 +10,10 @@ namespace BasicSamples
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");
 
             #region WebServer
-            //var html = "<h1 style='color: purple;'>Thanos died in the first 10min... endgame!</h1>";
+            //var html = "<h1 style='color: purple;'>Thanos dies in the first 10min... endgame!</h1>";
 
             //new WebHostBuilder()
             //    .UseKestrel()
